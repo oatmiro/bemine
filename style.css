@@ -17,9 +17,14 @@ body {
 
 .letter-window {
     background-image: url("heartdoily.png");
+    background-size: 200px;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
+.titletext {
+    font-size: 20px;
+    width: 150px;
 }
 
 .button {

@@ -24,11 +24,6 @@ body {
 
 }
 
-.titletext {
-    font-size: 30px;
-    width: 150px;
-}
-
 .button {
     background-color: white;
     color: red;
@@ -43,6 +38,7 @@ body {
     cursor: pointer;
 }
 
+ 
 .textbigger {
     font-size: 25px;
     width: 250px;

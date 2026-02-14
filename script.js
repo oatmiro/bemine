@@ -1,9 +1,20 @@
-// Get references to the button and the paragraph element by their IDs
+// yes button
 const button = document.getElementById('yesButton');
 const textDisplay = document.getElementById('displayText');
 
-// Add a 'click' event listener to the button
+// event listener
 button.addEventListener('click', function() {
     // Set the text content of the paragraph element
-    textDisplay.textContent = "Hello, world! The button was clicked.";
+    textDisplay.textContent = "Yipee! I love you so much :] Let's have a fun day together";
+});
+
+
+// no button
+const button2 = document.getElementById('noButton');
+const textDisplays = document.getElementById('displayTexts');
+
+// event listener
+button2.addEventListener('click', function() {
+    // Set the text content of the paragraph element
+    textDisplays.textContent = "Error... 404.. try again :P";
 });
